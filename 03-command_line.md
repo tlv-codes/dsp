@@ -44,6 +44,7 @@ What do the following commands do:
 * `ls -t`  
 * `ls -Glp`  
 
+
      `ls` = listing of directory contents  
      `ls -a` = listing of all contents, including hidden files  
      `ls -l` = long listing of directory contents  
