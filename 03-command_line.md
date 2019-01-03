@@ -74,7 +74,7 @@ What does `xargs` do? Give an example of how to use it.
 > > the below will create three files, named first, second, and third, in whatever directory the command is run from:
       
       example:   
-      print echo 'first' 'second' 'third' | xargs touch 
+      echo 'first' 'second' 'third' | xargs touch 
 
  
 
