@@ -44,13 +44,13 @@ What do the following commands do:
 * `ls -t`  
 * `ls -Glp`  
 
-> > * `ls` = listing of directory contents
-> > * `ls -a` = listing of all contents, including hidden files
-> > * `ls -l` = long listing of directory contents
-> > * `ls -lh` = long listing of directory contents with human readable file sizes
-> > * `ls -lah` long listing of directory contents with human readable, including hidden files
-> > * `ls -t` = list directory contents, sorted by modification time
-> > * `ls -Glp` =  long listing of directory contents with both color-coded file types and icon indicator of file type
+     `ls` = listing of directory contents
+     `ls -a` = listing of all contents, including hidden files
+     `ls -l` = long listing of directory contents
+     `ls -lh` = long listing of directory contents with human readable file sizes
+     `ls -lah` long listing of directory contents with human readable, including hidden files
+     `ls -t` = list directory contents, sorted by modification time
+     `ls -Glp` =  long listing of directory contents with both color-coded file types and icon indicator of file type
 
 ---
 
