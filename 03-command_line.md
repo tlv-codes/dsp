@@ -20,37 +20,37 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > show current working directory path = 'ls'
-> > creating a directory = 'mkdir'
-> > deleting a directory = 'rmdir *directory name*'
-> > creating a file using `touch` = 'touch *file name*'
-> > deleting a file = 'rm *file name*'
-> > renaming a file = 'mv *old file name* *new file name*'
-> > listing hidden files = 'ls -d'
-> > copying a file from one directory to another = 'cp -av *source directory* *destination directory*'
+> > * show current working directory path = 'ls'
+> > * creating a directory = 'mkdir'
+> > * deleting a directory = 'rmdir *directory name*'
+> > * creating a file using `touch` = 'touch *file name*'
+> > * deleting a file = 'rm *file name*'
+> > * renaming a file = 'mv *old file name* *new file name*'
+> > * listing hidden files = 'ls -d'
+> > * copying a file from one directory to another = 'cp -av *source directory* *destination directory*'
 ---
-> > return to default directory = 'cd ~'
-> > run last command = 'up-arrow-key'
+> > * return to default directory = 'cd ~'
+> > * run last command = 'up-arrow-key'
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls` 
-`ls -a` 
-`ls -l` 
-`ls -lh` 
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+* `ls` 
+* `ls -a` 
+* `ls -l` 
+* `ls -lh` 
+* `ls -lah`  
+* `ls -t`  
+* `ls -Glp`  
 
-> > *`ls` = listing of directory contents
-> > *`ls -a` = listing of all contents, including hidden files
-> > *'ls -l` = long listing of directory contents
-> > *'ls -lh` = long listing of directory contents with human readable file sizes
-> > *`ls -lah` long listing of directory contents with human readable, including hidden files
-> > *`ls -t` = list directory contents, sorted by modification time
-> > *`ls -Glp` =  long listing of directory contents with both color-coded file types and icon indicator of file type
+> > * `ls` = listing of directory contents
+> > * `ls -a` = listing of all contents, including hidden files
+> > * 'ls -l` = long listing of directory contents
+> > * 'ls -lh` = long listing of directory contents with human readable file sizes
+> > * `ls -lah` long listing of directory contents with human readable, including hidden files
+> > * `ls -t` = list directory contents, sorted by modification time
+> > * `ls -Glp` =  long listing of directory contents with both color-coded file types and icon indicator of file type
 
 
 ---
@@ -59,11 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 'ls -r' = displays files in reverse order
-> > 'ls -R' = displays subdirectories as well
-> > 'ls -u' = displays file by their access time
-> > 'ls -1' = displays each entry on a line
-> > 'ls -F' = displays file names
+> > * 'ls -r' = displays files in reverse order
+> > * 'ls -R' = displays subdirectories as well
+> > * 'ls -u' = displays file by their access time
+> > * 'ls -1' = displays each entry on a line
+> > * 'ls -F' = displays file names
 
 ---
 
@@ -71,10 +71,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 'xargs' allows you to create a script that iterates over basic input
-> > ex:
-> > echo "one" "two" "three" | xargs touch
-> > the above will create three files, named one, two, and three, in whatever directory the command is run from. 
+> > * 'xargs' allows you to create a script that iterates over basic input
+> > * ex:
+> > * echo "one" "two" "three" | xargs touch
+> > * the above will create three files, named one, two, and three, in whatever directory the command is run from. 
 
 
  
