@@ -71,11 +71,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > 'xargs' allows you to create a script that iterates over basic input  
-
+> > the below will create three files, named first, second, and third, in whatever directory the command is run from:
+      
       example:   
-      print echo 'one' 'two' 'three' | xargs touch 
+      print echo 'first' 'second' 'third' | xargs touch 
 
-> > the above will create three files, named one, two, and three, in whatever directory the command is run from. 
+ 
 
 
  
