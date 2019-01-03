@@ -72,8 +72,7 @@ What does `xargs` do? Give an example of how to use it.
 
 > > 'xargs' allows you to create a script that iterates over basic input.    
 > > the below will create three files, named first, second, and third, in whatever directory the command is run from:
-      
-      example:   
+
       echo 'first' 'second' 'third' | xargs touch 
 
  
