@@ -22,12 +22,12 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > * show current working directory path = `pwd`
 > > * creating a directory = `mkdir`
-> > * deleting a directory = `rmdir` `*directory name*`
-> > * creating a file using `touch` = `touch` *file name*
-> > * deleting a file = `rm` *file name*
-> > * renaming a file = `mv` *old file name* *new file name*
+> > * deleting a directory = `rmdir` `directory name`
+> > * creating a file using `touch` = `touch` `file name`
+> > * deleting a file = `rm` `file name`
+> > * renaming a file = `mv` `old file name` `new file name`
 > > * listing hidden files = `ls -d`
-> > * copying a file from one directory to another = `cp -av` *source directory path* *destination directory path*
+> > * copying a file from one directory to another = `cp -av` `source directory path` `destination directory path`
 ---
 > > * return to top-level directory = `cd ~/`
 > > * run last command = `up-arrow-key`
@@ -44,6 +44,7 @@ What do the following commands do:
 * `ls -t`  
 * `ls -Glp`  
 
+---
 
    > >  `ls` = listing of directory contents  
    > >  `ls -a` = listing of all contents, including hidden files  
