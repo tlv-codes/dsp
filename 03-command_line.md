@@ -20,17 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > * show current working directory path = pwd
-> > * creating a directory = mkdir
-> > * deleting a directory = rmdir *directory name*
-> > * creating a file using `touch` = touch *file name*
-> > * deleting a file = rm *file name*
-> > * renaming a file = mv *old file name* *new file name*
-> > * listing hidden files = ls -d
-> > * copying a file from one directory to another = cp -av *source directory path* *destination directory path*
+> > * show current working directory path = `pwd`
+> > * creating a directory = `mkdir`
+> > * deleting a directory = `rmdir` `*directory name*`
+> > * creating a file using `touch` = `touch` *file name*
+> > * deleting a file = `rm` *file name*
+> > * renaming a file = `mv` *old file name* *new file name*
+> > * listing hidden files = `ls -d`
+> > * copying a file from one directory to another = `cp -av` *source directory path* *destination directory path*
 ---
-> > * return to default directory = cd ~
-> > * run last command = up-arrow-key
+> > * return to top-level directory = `cd ~/`
+> > * run last command = `up-arrow-key`
 ---
 
 ### Q2.  List Files in Unix   
